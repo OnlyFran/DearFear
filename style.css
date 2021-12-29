@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* inicio header */
+
+.header {
+    background-color: #000000;
+    height: 2.7rem;
+    width: 100%;
+    /* margin: 2px 0 0 0; */
+    padding: 2px;
+}
+
+.headerNav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.headerRedirect {
+    color: white;
+    box-shadow: 0px 3px 0px #940b0b;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.headerRedirect:hover {
+    box-shadow: 0px 0px 0px #1d0202;
+    font-size: 23px;
+    transition: 0.8s;
+    /* color: #940202; */
+}
+
+/* final header */
+
+/* inicio body */
+
+.primeraCara {
+    height: 95vh;
+    width: 100%;
+    background-image: url(./images/graveyard.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.primeraCara h1 {
+    /* background-color: red; */
+    color: #292727;
+    /* width: 380px; */
+    text-align: center;
+    /* margin: 5rem 0 0 0; */
+    padding-top: 5rem;
+    font-family: 'Estonia', cursive;
+    font-size: 35px;
+    display: block;
+    position: relative;
+    animation-name: appear;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+body{
+    background-color: #000000;
+}
+
+.secciones {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 49vw;
+    height: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.objetos {
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+    display: inline-block;   
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#ouija {
+    width: 400px;
+    height: auto;
+    display: block;
+    padding: 5px;
+    border: 2px solid #220202;
+    margin: auto;
+}
+
+#voodoo {
+    width: 400px;
+    height: auto;
+    display: block;
+    padding: 5px;
+    border: 2px solid #220202;
+    margin: auto;
+
+}
+
+.def {
+    color: #ffffff;
+}
+
+.def a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.def a:hover {
+    color: #6d0b0b;
+}
+
+#ghosts {
+    margin-top: 10px;
+    box-shadow: 0px 2px 0px #4b0606;
+}
+
+.ghosts {
+    /* background-color: #4b0606; */
+    height: 40%;
+    display: grid;
+    margin: 15px 20px 60px 20px;
+    grid-gap: 2px;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 40% 30% 40%;
+    justify-content: center;
+}
+
+.box {
+    min-height: 150px;
+    min-width: 200px;
+    background-color: #000000;
+    border: 2px solid #333333;
+    padding: 10px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.box1 {
+    background-image: url(./images/phasmophobia/ghost1h.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.box2 {
+    background-image: url(./images/phasmophobia/ghost1v.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.box3 {
+    background-image: url(./images/phasmophobia/ghost2v.jpeg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.box4 {
+    background-image: url(./images/phasmophobia/ghost2h.jpg);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.box5 {
+    background-image: url(./images/phasmophobia/ghost3h.jpg);
+    background-size: cover;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+/* final body */
+
+/* inicio footer */
+
+.footer {
+    height: 45px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.footerNav ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.footerRedirect {
+    color: white;
+    box-shadow: 0px 3px 0px #4b0606;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.footerRedirect:hover {
+    box-shadow: 0px 0px 0px #1d0202;
+    color: #940202;
+}
+
+/* final footer */
