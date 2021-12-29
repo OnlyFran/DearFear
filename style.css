@@ -220,21 +220,21 @@ body{
     .primeraCara {
         height: 96.5vh;
         width: 100%;
-        background-image: url(./images/graveyard.jpg);
-        background-position: right;
+        background-image: url(./images/skull.jpg);
+        background-position: center;
         background-attachment: fixed;
         background-size: cover;
         position: relative;
     }
     
     .primeraCara h1 {
-        color: #292727;
+        color: #b19770;
+        /* background-color: red; */
         text-align: center;
-        padding-top: 13rem;
+        margin-top: 80vh;
         font-family: 'Estonia', cursive;
         font-size: 90px;
-        display: block;
-        position: relative;
+        display: inline-flex;
         animation-name: appear;
         animation-duration: 20s;
         animation-iteration-count: 1;
