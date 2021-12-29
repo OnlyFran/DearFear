@@ -207,6 +207,87 @@ body{
     grid-row: 3/4;
 }
 
+@media only screen and (min-width:300px) and (max-width:1023px) {
+    
+    .header {
+        height: 5rem;
+    }
+    
+    .headerRedirect {
+        font-size: 40px;
+    }
+
+    .primeraCara {
+        height: 96.5vh;
+        width: 100%;
+        background-image: url(./images/graveyard.jpg);
+        background-position: right;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .primeraCara h1 {
+        color: #292727;
+        text-align: center;
+        padding-top: 13rem;
+        font-family: 'Estonia', cursive;
+        font-size: 90px;
+        display: block;
+        position: relative;
+        animation-name: appear;
+        animation-duration: 20s;
+        animation-iteration-count: 1;
+    }
+
+    .secciones {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        justify-items: center;
+        padding: 2rem;
+    }
+    
+    .objetos {
+        color: #ffffff;
+        font-family: 'Shadows Into Light', cursive;
+        display: inline-block;   
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 60px;
+    }
+    
+    #ouija {
+        width: 700px;
+        height: auto;
+        display: block;
+        padding: 5px;
+        border: 2px solid #220202;
+        margin: auto;
+    }
+    
+    #voodoo {
+        width: 700px;
+        height: auto;
+        display: block;
+        padding: 5px;
+        border: 2px solid #220202;
+        margin: auto;
+    
+    }
+    
+    .def {
+        font-size: 50px;
+    }
+
+    .footerNav li a {
+        font-size: 20px;
+    }
+}
+
 /* final body */
 
 /* inicio footer */
